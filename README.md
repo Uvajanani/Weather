@@ -36,9 +36,6 @@ A sleek and responsive weather application built using **HTML**, **CSS**, and **
 ---
 
 
-
----
-
 ### 📦 Setup Instructions
 
 1. Clone the repository:
@@ -60,6 +57,5 @@ cd weather-app
 - **[OpenWeatherMap API](https://openweathermap.org/api)**  
 Provides real-time weather data including temperature, humidity, and wind speed.
 
----
 
 
