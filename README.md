@@ -44,7 +44,7 @@ git clone https://github.com/Uvajanani/Weather.git
 
 2. Navigate to the project directory:
 
-cd weather-app
+cd Weather
 
 3. Open `index.html` in your browser to run the app.
 
