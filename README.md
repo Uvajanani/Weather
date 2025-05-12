@@ -1,83 +1,65 @@
-🌦️ Weather App
-A sleek and responsive weather application built using HTML, CSS, and JavaScript, integrated with the OpenWeatherMap API to display real-time weather information based on user input.
+## 🌦️ Weather App
 
-🚀 Features
-🔍 Search by City: Enter any city name in the search bar to view current weather conditions.
+A sleek and responsive weather application built using **HTML**, **CSS**, and **JavaScript**, integrated with the **OpenWeatherMap API** to provide real-time weather updates for any city.
 
-🌡️ Real-time Temperature: Displays the current temperature in Celsius.
+---
 
-💧 Humidity Information: Shows the humidity level as a percentage.
+### 🚀 Features
 
-🌬️ Wind Speed: Provides the current wind speed in km/hr.
+- **Real-time Weather Data**: Fetches current temperature, humidity, and wind speed for the entered city.
+- **City Search Functionality**: Users can search for any city using the search bar.
+- **Dynamic UI Updates**: Weather information updates instantly based on the searched city.
+- **Visual Weather Indicators**: Displays images/icons for temperature, humidity, and wind speed for better visual understanding.
+- **Clean and Modern Design**: User-friendly interface with a gradient background and responsive layout.
 
-🌤️ Dynamic Weather Icon: Updates the weather icon based on current conditions (e.g., sunny, cloudy).
+---
 
-📱 Responsive UI: Clean, modern design with a responsive layout for mobile and desktop.
+### 🛠️ Technologies Used
 
+- **HTML** – Structure of the application  
+- **CSS** – Styling and layout  
+- **JavaScript** – API integration and DOM manipulation  
+- **OpenWeatherMap API** – Provides accurate and up-to-date weather data
 
-🛠️ Built With
-HTML5 – Structure of the web application.
+---
 
-CSS3 – Styling and layout.
+### 🔍 How It Works
 
-JavaScript (Vanilla) – Logic for fetching and displaying weather data.
+1. User enters a **city name** into the search bar.
+2. JavaScript fetches weather data from the **OpenWeatherMap API**.
+3. The app displays:
+   - **Temperature (°C)**
+   - **Humidity (%)**
+   - **Wind Speed (km/hr)**
+4. Corresponding **icons** for weather metrics are shown for visual clarity.
 
-OpenWeatherMap API – Source of real-time weather data.
-
-📦 How to Use
-Clone or download this repository:
-
-bash
-Copy
-Edit
-git clone https://github.com/your-username/weather-app.git
-Open the index.html file in your browser.
-
-Type any city name into the search bar and press the search icon or hit Enter.
-
-View real-time temperature, humidity, and wind speed with relevant icons.
-
-🔑 API Key
-This project uses the OpenWeatherMap API. To run this app:
-
-Sign up at OpenWeatherMap and get your API key.
-
-Replace the placeholder in your JavaScript file:
-
-
-const apiKey = "YOUR_API_KEY_HERE";
-
-
-📁 File Structure
-plaintext
-Copy
-Edit
-weather-app/
-│
-├── index.html          # Main HTML file
-├── style.css           # Styling for the application
-├── script.js           # JavaScript logic for API call and DOM updates
-└── images/
-    ├── weather-icons/  # Icons for temperature, wind, humidity
-
-
-🧠 Future Enhancements
-🌍 Geolocation support to get user’s local weather.
-
-🕒 Hourly and weekly forecast.
-
-🌗 Dark mode toggle.
-
-🙌 Acknowledgements
-OpenWeatherMap API
-Icon credits from Flaticon 
+---
 
 
 
+---
 
+### 📦 Setup Instructions
 
+1. Clone the repository:
 
+git clone https://github.com/Uvajanani/Weather.git
 
+2. Navigate to the project directory:
 
+cd weather-app
+
+3. Open `index.html` in your browser to run the app.
+
+> ⚠️ Make sure to replace the placeholder API key in the JavaScript file with your **OpenWeatherMap API key**.
+
+---
+
+### 🌐 API Used
+
+- **[OpenWeatherMap API](https://openweathermap.org/api)**  
+Provides real-time weather data including temperature, humidity, and wind speed.
+
+---
 
 
